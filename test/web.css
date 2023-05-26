@@ -1,0 +1,96 @@
+.haikei{
+    background-image: url(white.jpg);
+    width: 100%;
+    height:100px;
+}
+.header {
+    width: 100%;
+    height:100px;
+    margin: auto;
+    background-color: black;
+    /* position: fixed; */
+    /* top:0; */
+   
+}
+.header p{
+    color: white;
+    font-size: 50px;
+    position:center;
+    display: inline-block;
+    position:absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  
+}
+a.press {
+    box-shadow: 0 4px 0 #d01a0a; 
+  }
+  a.press:hover {
+    transform: translateY(4px);
+    box-shadow: none;
+  }
+  
+  .youtube img{
+      display: inline-block;
+      position: relative;
+      left: 200px;
+    }
+    p.txt{
+      display:inline-block;
+    width:50px;
+      /* vertical-align: top; */
+      margin-left:15px;
+      height:50px;
+      
+    }
+
+a:hover{
+    box-shadow: 10px 10px 10px red;
+    transform: translate(0, 10px);
+}
+.twitter img{
+    display: block;
+    position: relative;
+    left:900px;
+}
+.b:hover{
+    box-shadow: 10px 10px 10px #55acee;
+    transform: translate(0, 10px);
+
+}
+.line img{
+    display: block;
+    position: relative;
+    left:200px;
+}
+.c:hover{
+    box-shadow: 10px 10px 10px #00c300;
+    transform: translate(0, 10px);
+
+}
+.facebook img{
+    display: block;
+    position: relative;
+    left:900px;
+}
+.d:hover{
+    box-shadow: 10px 10px 10px #315096;
+    transform: translate(0, 10px);
+
+}
+.facebook h1{
+    font-family: 'Segoe UI';
+}
+.tiktok img{
+    display: block;
+    position: relative;
+    left:200px;
+}
+.e:hover{
+    box-shadow: 10px 10px 10px black;
+    transform: translate(0, 10px);
+
+}
+
+
